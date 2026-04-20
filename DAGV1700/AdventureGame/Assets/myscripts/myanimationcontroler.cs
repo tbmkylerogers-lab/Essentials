@@ -45,6 +45,7 @@ public class myanimationcontroler : MonoBehaviour
         {
             animator.SetBool(run, false);
             animator.SetBool(idle, true);
+            animator.SetBool(jump, false);
         }
     }
 }
